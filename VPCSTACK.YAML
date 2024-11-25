@@ -11,5 +11,5 @@ Resources:
   ipv6CidrBlock:
     Type: AWS::EC2::VPCCidrBlock
     Properties:
-      VpcId: !Ref INFO:ADDHAR:DEV:VPC
+      VpcId: !Ref INFODEVVPC
       AmazonProvidedIpv6CidrBlock: true
